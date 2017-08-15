@@ -1,0 +1,27 @@
+[%-  # the contents for index.html 
+	currentflag = "$template.name" 
+	version = '170624.1'
+-%]
+[%- USE date -%]
+[% INCLUDE topmatter filestamp=date.format(template.modtime) -%]
+	  <div id="content">
+        <div class="content_item">
+		  <h1>This is the online reference for Les Granges</h1> 
+	      <p>We will slowly be adding links to useful information here...</p>	  
+		  <div class="content_container">
+		    <p>On the info page you can find links to the 2017 Handbook, and to a PDF containing 
+		    details instructions on how to get to Les Granges.</p>
+		  	<div class="button_small">
+		      <a href="info.html">Read more</a>
+		    </div><!--close button_small-->
+		  </div><!--close content_container-->
+          <div class="content_container">
+		    <p>The Calendar is now operational, and we will soon be adding a photo and video gallery to the site!</p>          
+		  	<!--div class="button_small">
+		      <a href="#">Read more</a>
+		    </div><!--close button_small-->		  
+		  </div><!--close content_container-->			  
+		</div><!--close content_item-->
+      </div><!--close content-->   
+	</div><!--close site_content--> 
+[% INCLUDE bottommatter -%]

@@ -1,0 +1,21 @@
+[%-  # the contents for info.html 
+	currentflag = "$template.name" 
+	version = '170624.2'
+-%]
+[%- USE date -%]
+[% INCLUDE topmatter filestamp=date.format(template.modtime) -%]
+	  <div id="content">
+        <div class="content_item">
+		  <h1>Info and Downloads</h1> 
+	      <p>You can download a copy of the current handbook from here. You need to get the username and password
+	      from the Mulgans!</p>	  
+		  <div class="content_container">
+		    <p>This is the link to the <a href="downloads/handbook 2017.pdf">2017 Handbook</a></p>
+		  	  </div><!--close content_container-->
+          <div class="content_container">
+		    <p>And here is a link to the instructions for <a href="downloads/Les Granges - How to get there.pdf">getting to Les Granges</a></p>          
+		  	</div><!--close content_container-->			  
+		</div><!--close content_item-->
+      </div><!--close content-->   
+	</div><!--close site_content--> 
+[% INCLUDE bottommatter -%]

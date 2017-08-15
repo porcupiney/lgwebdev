@@ -1,0 +1,28 @@
+[%-  # the contents for pictures.html 
+	currentflag = "$template.name" 
+	version = '170624.1'
+-%]
+[%- USE date -%]
+[% INCLUDE topmatter filestamp=date.format(template.modtime) -%]
+	  <div id="content">
+        <div class="content_item">
+		  <h1>Les Granges Picture Gallery</h1> 
+	      <p>We will put adding some pictures here at some point...</p>	  
+		  <div class="content_container">
+		    <p>Future link to the gallery...</p>
+		  	<!-- div class="button_small">
+		      <a href="info.html">Read more</a>
+		    </div><!--close button_small-->
+		  </div><!--close content_container-->
+          
+          <!-- div class="content_container">
+		    <p>We will be writing a comprehensive "how to find us" guide too!</p>          
+		  	<div class="button_small">
+		      <a href="#">Read more</a>
+		    </div><!--close button_small-->		  
+		  <!-- /div><!--close content_container-->
+		  
+		</div><!--close content_item-->
+      </div><!--close content-->
+	</div><!--close site_content--> 
+[% INCLUDE bottommatter -%]

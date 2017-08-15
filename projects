@@ -1,0 +1,28 @@
+[%-  # the contents for projects.html 
+	currentflag = "$template.name" 
+	version = '170624.1'
+-%]
+[%- USE date -%]
+[% INCLUDE topmatter filestamp=date.format(template.modtime) -%]
+	  <div id="content">
+        <div class="content_item">
+		  <h1>Les Granges Project Page</h1> 
+	      <p>This is where we will plan and report project work...</p>	  
+		  <div class="content_container">
+		    <p>Project 1...</p>
+		  	<!-- div class="button_small">
+		      <a href="info.html">Read more</a>
+		    </div><!--close button_small-->
+		  </div><!--close content_container-->
+          
+          <div class="content_container">
+		    <p>Project 2...</p>          
+		  	<!-- div class="button_small">
+		      <a href="#">Read more</a>
+		    </div><!--close button_small-->		  
+		  </div><!--close content_container-->
+		  
+		</div><!--close content_item-->
+      </div><!--close content-->
+	</div><!--close site_content--> 
+[% INCLUDE bottommatter -%]
